@@ -1,47 +1,48 @@
-# Astro Starter Kit: Minimal
+# [Fomalhaut](https://fomalhaut.majestico.co)
 
-```sh
-npm create astro@latest -- --template minimal
-```
+> [!IMPORTANT]
+> Currently this theme only works with the premium version of GSAP, the steps to use the standard version will be available in the future.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+This theme takes inspiration from the Framer theme [formstudio](https://formstudio.site/)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Instruction to change the main title animation will be available in the future.
 
-## 🚀 Project Structure
+<a href="https://astro.build/">![Astro](.github/images/astro-icon.png)</a>
+<a href="https://tailwindcss.com/">![Tailwind](.github/images/tailwind-icon.png)</a>
+<a href="https://gsap.com/">![Gsap](.github/images/gsap.png)</a>
 
-Inside of your Astro project, you'll see the following folders and files:
+Fomalhaut is a template made with [Astro](https://astro.build), [Tailwind](https://tailwindcss.com/) and [Gsap](https://gsap.com/)
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/majesticooss/fomalhaut)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/majesticooss/fomalhaut)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/majesticooss/fomalhaut)
 
-Any static assets, like images, can be placed in the `public/` directory.
+### [🧪 Site preview →](https://fomalhaut.majestico.co)
 
-## 🧞 Commands
+### [🧑‍🚀 Astro website →](https://astro.build/)
 
-All commands are run from the root of the project, from a terminal:
+### [🕮 Astro docs →](https://docs.astro.build/en/getting-started/)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+## Preview
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![Fomalhaut Preview](.github/images/screenshot.png)
+
+## 🧪 Test
+
+On the folder run
+
+1. `bun install`  <small>(or `yarn` or `pnpm i`)</small>
+2. `bun run dev`  <small>(or `yarn dev` or `pnpm dev`)</small>
+
+## ✅ Features
+
+- [x] Localization
+- [x] Blog
+
+---
+
+<p align="right"><a href="https://majestico.co" target="_blank">majestico.co</p>
