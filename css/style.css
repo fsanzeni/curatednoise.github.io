@@ -33,7 +33,7 @@ body {
 
 @font-face {
     font-family: Nohemi-Bold;
-    src: url(../assets/font/Nohemi-Bold-BF6438cc577b524.woff) format('woff');
+    src: url('../assets/font/Nohemi-Bold-BF6438cc577b524.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -41,7 +41,7 @@ body {
 
 @font-face {
     font-family: Nohemi-Medium;
-    src: url(../assets/font/Nohemi-Medium-BF6438cc57ddecd.woff) format('woff');
+    src: url('../assets/font/Nohemi-Medium-BF6438cc57ddecd.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
