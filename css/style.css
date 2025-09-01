@@ -29,7 +29,13 @@ body {
     -webkit-border-radius: 50%;
     position: absolute;
     z-index: 1;
+    transition: background 0.2s;
 }
+
+#circularcursor.cursor-hover {
+  background-color: var(--color-red);
+}
+
 
 @font-face {
     font-family: Nohemi-Bold;

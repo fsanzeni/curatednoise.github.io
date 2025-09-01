@@ -8,6 +8,13 @@ $(document).ready(function () {
     })
 });
 
+const cursor = document.getElementById('circularcursor');
+document.querySelectorAll('a').forEach(link => {
+  link.addEventListener('mouseenter', () => cursor.classList.add('cursor-hover'));
+  link.addEventListener('mouseleave', () => cursor.classList.remove('cursor-hover'));
+});
+Í
+
 //  email handling
 document.getElementById('subscribeBtn').addEventListener('click', () => {
     const to = 'curatednoise@gmail.com';
