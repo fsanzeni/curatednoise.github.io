@@ -20,21 +20,7 @@ body {
     background-color: var(--color-black);
 }
 
-#circularcursor {
-    background-color: var(--color-blue);
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    transition: background 0.2s;
-}
 
-#circularcursor.cursor-hover {
-  background-color: var(--color-red);
-}
 
 
 @font-face {
@@ -51,6 +37,47 @@ body {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+
+#circularcursor {
+    background-color: var(--color-blue);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    color: var(--color-white);
+    font-size: 12px;
+    font-family: Nohemi-Medium;
+    transition: background 0.2s, width 0.2s, height 0.2s;
+}
+
+#circularcursor.cursor-hover {
+  background-color: var(--color-red);
+}
+
+#cursor-msg {
+  display: none;
+  pointer-events: none;
+}
+#circularcursor.show-msg #cursor-msg {
+  display: block !important;
+}
+
+#circularcursor.show-msg {
+  height: 60px;
+  width: 100px;
+  transform: translate(-50px,-30px);
+  border-radius: 30px;
+  background-color: var(--color-red);
+  color: var(--color-white) !important;
+  font-size: 12px !important;
 }
 
 .navbar {

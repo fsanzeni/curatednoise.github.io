@@ -13,7 +13,20 @@ document.querySelectorAll('a').forEach(link => {
   link.addEventListener('mouseenter', () => cursor.classList.add('cursor-hover'));
   link.addEventListener('mouseleave', () => cursor.classList.remove('cursor-hover'));
 });
-Í
+
+const cursorMsg = document.getElementById('circularcursor');
+const msg = document.getElementById('cursor-msg');
+const workLink = Array.from(document.querySelectorAll('a.nav-link')).find(a => a.textContent.trim() === 'WORK');
+
+if (workLink) {
+  workLink.addEventListener('mouseenter', () => {
+    cursor.classList.add('show-msg');
+  });
+  workLink.addEventListener('mouseleave', () => {
+    cursor.classList.remove('show-msg');
+  });
+}
+
 
 //  email handling
 document.getElementById('subscribeBtn').addEventListener('click', () => {
