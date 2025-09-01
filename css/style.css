@@ -20,8 +20,9 @@ body {
     background-color: var(--color-black);
 }
 
-
-
+a:hover, button:hover {
+  cursor: none !important;
+}
 
 @font-face {
     font-family: Nohemi-Bold;
