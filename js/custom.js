@@ -30,7 +30,7 @@ if (workLink) {
 
 //  email handling
 document.getElementById('subscribeBtn').addEventListener('click', () => {
-    const to = 'curatednoise@gmail.com';
+    const to = 'curatednoise@protonmail.com';
     const subject = 'SUBSCRIBE';
     const entered = document.getElementById('subscriberEmail').value || '';
     const body = `Please subscribe this address: ${entered}`;
