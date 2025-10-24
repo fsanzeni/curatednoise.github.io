@@ -37,3 +37,10 @@ document.getElementById('subscribeBtn').addEventListener('click', () => {
     const href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = href;
 });
+
+document.getElementById('getInTouch').addEventListener('click', () => {
+    const to = 'curatednoise@protonmail.com';
+    const subject = 'Hi There!';
+    const href = `mailto:${to}?subject=${encodeURIComponent(subject)}}`;
+    window.location.href = href;
+});
